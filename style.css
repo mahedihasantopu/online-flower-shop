@@ -216,7 +216,7 @@
     height: 449px;
     margin: 174px auto;
     width: 100%;
-    background-image: url("/assets/latest-deal.png");
+    background-image: url("./assets/latest-deal.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
