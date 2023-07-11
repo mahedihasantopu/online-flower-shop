@@ -151,6 +151,22 @@
 
 /* Feature flower section end */
 
+/* instagram section start */
+.instagram-flowers {
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.instagram-flowers img {
+    width: 342px;
+    height: 396px;
+}
+
+/* instagram section end */
+
 
 /* get latest deal start */
 .latest-deal {
