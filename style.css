@@ -24,6 +24,28 @@
     transition: ease-in all 0.5s;
 }
 
+
+#title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#summary {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+    margin: 32px 0 32px 0;
+    text-align: center;
+}
+
 /* common styles */
 
 /* banner section start */
@@ -45,14 +67,10 @@
 #banner-title {
     font-size: 80px;
     font-weight: 800;
-    font-family: Lato;
 }
 
 .banner-details p {
-    width: 634px;
-    flex-direction: column;
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
@@ -150,6 +168,30 @@
 }
 
 /* Feature flower section end */
+
+
+/* hot deals section start */
+.hot-deals-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hot-deals {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hot-deals img {
+    width: 318px;
+    height: 420px;
+}
+
+/* hot deals section end */
+
+
 
 /* instagram section start */
 .instagram-flowers {
