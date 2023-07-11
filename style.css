@@ -67,3 +67,87 @@
 }
 
 /* banner section end */
+
+
+
+/* Feature flower section start */
+.feature-flower {
+    max-width: 1480px;
+    margin: 174px auto;
+    width: 100%;
+    height: fit-content;
+    background: white;
+}
+
+.feature-flower-details h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.feature-flower-details p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+
+.flowers-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+
+
+.flower-container {
+    width: 100%;
+}
+
+
+.flower-container div {
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 300px 300px 0px 0px;
+    padding: 0 24px 0 24px;
+}
+
+#flower-bg1 {
+    background-color: #A7216226;
+}
+
+#flower-bg2 {
+    background-color: #0597A026;
+}
+
+#flower-bg3 {
+    background-color: #477D1126;
+}
+
+#feature-img {
+    height: 428px;
+}
+
+
+.flower-container h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    font-family: Lato;
+}
+
+/* Feature flower section end */
