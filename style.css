@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Lato;
 }
 
 /* common styles */
@@ -15,7 +16,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 32px;
     cursor: pointer;
 }
 
@@ -58,7 +58,7 @@
     font-weight: 400;
     line-height: 30px;
     font-style: normal;
-    margin-top: 32px;
+    margin: 32px 0 32px 0;
 }
 
 .banner #banner-image {
@@ -147,12 +147,69 @@
     text-align: center;
     text-decoration: underline;
     margin-top: 20px;
-    font-family: Lato;
 }
 
 /* Feature flower section end */
 
 
+/* get latest deal start */
+.latest-deal {
+    max-width: 1480px;
+    height: 449px;
+    margin: 174px auto;
+    width: 100%;
+    background-image: url("/assets/latest-deal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.latest-deal h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.latest-deal p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscribe-action {
+    margin-top: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-action input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0 10px 0 10px;
+    border: none;
+    margin-right: 16px;
+}
+
+.subscribe-action input:focus {
+    outline-color: #d72b50;
+}
+
+
+/* get latest deal end */
 
 
 
